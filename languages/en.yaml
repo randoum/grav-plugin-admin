@@ -656,8 +656,10 @@ PLUGIN_ADMIN:
   FORCE_SSL_HELP: "Globally force SSL, if enabled when the site is reached through HTTP, Grav sends a redirect to the HTTPS page"
   NEWS_FEED: "News Feed"
   EXTERNAL_URL: "External URL"
-  SESSION_PATH: "The session path"
+  SESSION_PATH: "The session SameSite"
   SESSION_PATH_HELP: "Use only if you choose a custom base URL (you rewrite the site domain / subfolder)"
+  SESSION_SAMESITE: "The session SameSite attribute"
+  SESSION_SAMESITE_HELP: "Lax|Strict|None. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite for more info"
   CUSTOM_BASE_URL: "Custom base URL"
   CUSTOM_BASE_URL_HELP: "Use if you want to rewrite the site domain or use a different subfolder than the one used by Grav. Example: http://localhost"
   FILEUPLOAD_PREVENT_SELF: 'Cannot use "%s" outside of pages.'
